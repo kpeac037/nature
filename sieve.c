@@ -82,11 +82,13 @@ void v2(int size){
 
     printf("Primes up to %d were found\n", size);
 
+    /*
     for(i=0;i<size;i++){
         if(buff[i] != 0){
             printf("%d, ", i);
         }
     }
+    */
     
     free(buff);
 }
